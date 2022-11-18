@@ -1,0 +1,54 @@
+body{
+    font-family: Work Sans;
+    color: #131313;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+ p{
+    text-align: center;
+    text-align: justify;
+  text-justify: inter-word;
+  padding: 2em;
+  padding-top: 0;
+ }
+
+.Nsite-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+.form-box-name{
+    width: 20em;
+    margin: 0.3em;
+    height: 3em;
+    border-radius: 0.3em;
+    padding-left: 1em;
+    border: transparent;
+}
+
+.form-box-email{
+    width: 20em;
+    margin: 0.3em;
+    height: 3em;
+    border-radius: 0.3em;
+    padding-left: 1em;
+    border: transparent;
+}
+
+.form-sec{
+    width: 100vw;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-form{
+    width: 21.4em;
+    margin: 0.2em;
+    height: 2.5em;
+}
