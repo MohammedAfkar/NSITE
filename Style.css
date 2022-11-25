@@ -110,7 +110,8 @@ h1{
     width: 10em;
     font-weight: bolder;
     padding: 0.5em;
-    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+    text-shadow: 0px 0px 2px #131313;
+    -webkit-text-stroke: 0.4px rgb(255, 255, 255);
 }
 
 .dept-brand{
@@ -189,4 +190,32 @@ color: #002B5B;
     margin-top: 2em;
     font-weight: bolder;
     box-shadow: 2px 2px 5px;
+}
+
+.button-align{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.nextbuttons{
+    padding-top: 1.2em;
+    float: left;
+}
+
+.button-next{
+  padding: .5em 2em;
+  font-size: 1.2em;
+  color: #cad9df;
+  background-color: #343434;
+  border: none;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  border-radius: 5px;
+}
+
+.button-next:hover,
+.button-next:focus {
+  color: #fff;
+  background-color: #607f8a;
 }
