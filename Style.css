@@ -116,10 +116,9 @@ h1{
 
 .dept-brand{
     width: 100vw;
-    height: 10em;
+    height: 5em;
     border-radius: 2em;
     margin-top: 2em;
-    margin-bottom: 3em;
 }
 
 .dept-bg-brand{
@@ -133,9 +132,10 @@ h1{
 .dept-name-brand{
     display: flex;
     justify-content: center;
-    margin-top: -5em;
-    color: aliceblue;
-    width: 90vw;
+    margin-top: 2em;
+    padding-bottom: 0;
+    color: rgb(0, 0, 0);
+    width: 100vw;
     font-weight: bolder;
     font-size: larger;
     padding: 2em;
@@ -144,7 +144,8 @@ h1{
 
 .head{
     font-size: large;
-    margin-left: 1em;
+    display: flex;
+    justify-content: center;
     color: #002B5B;
     font-style: italic;
     font-weight: bolder;
