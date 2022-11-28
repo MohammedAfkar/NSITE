@@ -1,2 +1,3 @@
 npm install express-handlebars
 npm install ejs
+npm install express
