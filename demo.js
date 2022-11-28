@@ -7,3 +7,18 @@ for(var [key,values] of Object.entries(events))
 {
    console.log(values.title)
 }
+
+const csv = require('csv-parser')
+const fs=require('fs')
+const results=[];
+let hai=[]
+function hello()
+{console.log("hai")
+   fs.createReadStream('AERONAUTICALENGINEERING.csv').pipe(csv({})).on('data',(data) => results.push(data)).on('end',() => {
+   console.log("h");
+   module.exports.helo=results
+});
+}
+
+hello();
+console.log(hai)
