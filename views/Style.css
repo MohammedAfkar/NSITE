@@ -12,7 +12,7 @@ h1{
     text-align: center;
 }
 
-#pageno{
+.pageno{
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -34,6 +34,7 @@ padding-top: 0;
 padding-bottom: 0;
 font-weight: bolder;
  }
+
 .Nsite-logo{
     display: block;
     margin-left: auto;
@@ -47,6 +48,13 @@ font-weight: bolder;
     margin-left: 1em;
 }
 
+/* reg form*/
+.form-align{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
 
 /*home*/
 

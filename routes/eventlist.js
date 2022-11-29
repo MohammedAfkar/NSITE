@@ -406,11 +406,6 @@ coordinator2:"Dr. U Vijay Sankar",
 coordinator2no:"9846634066"},
 ]
 
-
-
-
-
-
 let mech=[{title:"Mecholution",para:"Internet services and applications have become an inextricable part of daily lifeenabling communication and the management of personal information from anywhere",room:"201",fee1:"40",fee2:"60",coordinator1:"Afkar",coordinator1no:"1234567890",coordinator2:"mrudula",coordinator2no:"0987654321"},
 {title:"Machinery-EXPO",para:"Internet services and applications have become an inextricable part of daily lifeenabling communication and the management of personal information from anywhere",room:"201",fee1:"40",fee2:"60",coordinator1:"Afkar",coordinator1no:"1234567890",coordinator2:"mrudula",coordinator2no:"0987654321"},
 {title:"Mech-Corner",para:"Internet services and applications have become an inextricable part of daily lifeenabling communication and the management of personal information from anywhere",room:"201",fee1:"40",fee2:"60",coordinator1:"Afkar",coordinator1no:"1234567890",coordinator2:"mrudula",coordinator2no:"0987654321"},
