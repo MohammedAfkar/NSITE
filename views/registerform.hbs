@@ -1,0 +1,74 @@
+<style>
+.title-align{
+  display: flex;
+  justify-content: center;
+}
+
+#but-align{
+  margin-left: 0.5em;
+}
+.form-sec{
+  margin-left: 1em;
+}
+
+.form-box{
+    margin: 0.3em;
+    height: 3em;
+    border-radius: 0.3em;
+    padding-left: 1em;
+    border-color: #002b5b;
+}
+
+</style>
+<script>
+  function hello()
+  {
+    var txt=document.getElementById('txt1');
+        document.getElementById('frmColor').txt1.disabled=true
+        console.log('helloworld')
+
+  }
+</script>
+
+<div>
+    {{#each abc}}
+    <p class="head">Registration Here</p>
+    <h4 class="title-align">{{{title}}}</h4>
+    <div class="form-align">
+    <form class="form-sec">
+      <input type="radio" id="frmColor" value="team" id="btn1" onclick="hello()">
+      <label>Individual</label>
+
+      <input type="radio" value="team" id="btn1" onclick="hello()">
+      <label>Team</label><br>
+
+      <label>Name</label><br>
+      <input type="text" class="form-box" name="name" placeholder="Arjun" required><br>
+
+      <label>Email</label><br>
+        <input type="email" class="form-box" name="email" placeholder="arjunt@gmail.com" required><br>
+      
+       <label for="phone">Phone number</label><br>
+      <input type="tel" class="form-box" id="phone" name="phone" placeholder="9076543210" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br>
+     
+      <label>college</label><br>
+      <input type="text" name="name" class="form-box" placeholder="JCET" required><br>
+      
+      <label>Branch</label><br>
+      <input type="text" name="name" class="form-box" placeholder="Branch" required><br>
+      
+      <select>
+        <option>Year of study</option>
+        <option>First year</option>
+        <option>Second year</option>
+        <option>Third year</option>
+        <option>Fourth year</option>
+      </select>
+<br>
+      <input type="submit" class="button" id="but-align" value="Register">
+    </form>
+    </div>
+</div>
+  {{/each}}
+</div>
+

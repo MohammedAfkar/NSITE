@@ -1,5 +1,6 @@
 const express=require('express');
 const router=express.Router();
+const path=require('path');
 
 //database importing
 var eventdata=require('./eventlist.js')
@@ -31,7 +32,7 @@ res.render("cse-eventpage4.html");
     a=req.route.path;
     for(var [key,values] of Object.entries(cse))
       {
-        console.log(a.slice(1))
+        
         if(values.title==a.slice(1))
         {
           abc[0]=cse[key]
@@ -45,7 +46,7 @@ res.render("cse-eventpage4.html");
       a=req.route.path;
       for(var [key,values] of Object.entries(cse))
         {
-          console.log(a.slice(1))
+          
           if(values.title==a.slice(1))
           {
             abc[0]=cse[key]
@@ -59,7 +60,7 @@ res.render("cse-eventpage4.html");
         a=req.route.path;
         for(var [key,values] of Object.entries(cse))
           {
-            console.log(a.slice(1))
+            
             if(values.title==a.slice(1))
             {
               abc[0]=cse[key]
@@ -73,7 +74,7 @@ res.render("cse-eventpage4.html");
           a=req.route.path;
           for(var [key,values] of Object.entries(cse))
             {
-              console.log(a.slice(1))
+              
               if(values.title==a.slice(1))
               {
                 abc[0]=cse[key]
@@ -87,7 +88,7 @@ res.render("cse-eventpage4.html");
             a=req.route.path;
             for(var [key,values] of Object.entries(cse))
               {
-                console.log(a.slice(1))
+                
                 if(values.title==a.slice(1))
                 {
                   abc[0]=cse[key]
@@ -101,7 +102,7 @@ res.render("cse-eventpage4.html");
         a=req.route.path;
         for(var [key,values] of Object.entries(cse))
           {
-            console.log(a.slice(1))
+            
             if(values.title==a.slice(1))
             {
               abc[0]=cse[key]
@@ -115,7 +116,7 @@ res.render("cse-eventpage4.html");
           a=req.route.path;
           for(var [key,values] of Object.entries(cse))
             {
-              console.log(a.slice(1))
+              
               if(values.title==a.slice(1))
               {
                 abc[0]=cse[key]
@@ -129,7 +130,7 @@ res.render("cse-eventpage4.html");
             a=req.route.path;
             for(var [key,values] of Object.entries(cse))
               {
-                console.log(a.slice(1))
+                
                 if(values.title==a.slice(1))
                 {
                   abc[0]=cse[key]
@@ -143,7 +144,7 @@ res.render("cse-eventpage4.html");
               a=req.route.path;
               for(var [key,values] of Object.entries(cse))
                 {
-                  console.log(a.slice(1))
+                  
                   if(values.title==a.slice(1))
                   {
                     abc[0]=cse[key]
@@ -157,7 +158,7 @@ res.render("cse-eventpage4.html");
                 a=req.route.path;
                 for(var [key,values] of Object.entries(cse))
                   {
-                    console.log(a.slice(1))
+                    
                     if(values.title==a.slice(1))
                     {
                       abc[0]=cse[key]
@@ -171,7 +172,7 @@ res.render("cse-eventpage4.html");
                   a=req.route.path;
                   for(var [key,values] of Object.entries(cse))
                     {
-                      console.log(a.slice(1))
+                      
                       if(values.title==a.slice(1))
                       {
                         abc[0]=cse[key]
@@ -185,7 +186,7 @@ res.render("cse-eventpage4.html");
                    a=req.route.path;
                    for(var [key,values] of Object.entries(cse))
                      {
-                       console.log(a.slice(1))
+                       
                        if(values.title==a.slice(1))
                        {
                          abc[0]=cse[key]
@@ -199,7 +200,7 @@ res.render("cse-eventpage4.html");
                      a=req.route.path;
                      for(var [key,values] of Object.entries(cse))
                        {
-                         console.log(a.slice(1))
+                         
                          if(values.title==a.slice(1))
                          {
                            abc[0]=cse[key]
@@ -213,7 +214,7 @@ res.render("cse-eventpage4.html");
              a=req.route.path;
              for(var [key,values] of Object.entries(cse))
                {
-                 console.log(a.slice(1))
+                 
                  if(values.title==a.slice(1))
                  {
                    abc[0]=cse[key]
@@ -227,7 +228,7 @@ res.render("cse-eventpage4.html");
              a=req.route.path;
              for(var [key,values] of Object.entries(cse))
                {
-                 console.log(a.slice(1))
+                 
                  if(values.title==a.slice(1))
                  {
                    abc[0]=cse[key]
@@ -241,7 +242,7 @@ res.render("cse-eventpage4.html");
              a=req.route.path;
              for(var [key,values] of Object.entries(cse))
                {
-                 console.log(a.slice(1))
+                 
                  if(values.title==a.slice(1))
                  {
                    abc[0]=cse[key]
@@ -255,7 +256,7 @@ res.render("cse-eventpage4.html");
              a=req.route.path;
              for(var [key,values] of Object.entries(cse))
                {
-                 console.log(a.slice(1))
+                 
                  if(values.title==a.slice(1))
                  {
                    abc[0]=cse[key]
@@ -269,7 +270,7 @@ res.render("cse-eventpage4.html");
              a=req.route.path;
              for(var [key,values] of Object.entries(cse))
                {
-                 console.log(a.slice(1))
+                 
                  if(values.title==a.slice(1))
                  {
                    abc[0]=cse[key]
@@ -283,7 +284,7 @@ res.render("cse-eventpage4.html");
                a=req.route.path;
                for(var [key,values] of Object.entries(cse))
                  {
-                   console.log(a.slice(1))
+                   
                    if(values.title==a.slice(1))
                    {
                      abc[0]=cse[key]
@@ -297,7 +298,7 @@ res.render("cse-eventpage4.html");
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {
-                     console.log(a.slice(1))
+                     
                      if(values.title==a.slice(1))
                      {
                        abc[0]=cse[key]
@@ -311,7 +312,7 @@ res.render("cse-eventpage4.html");
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {
-                     console.log(a.slice(1))
+                     
                      if(values.title==a.slice(1))
                      {
                        abc[0]=cse[key]
@@ -325,7 +326,7 @@ res.render("cse-eventpage4.html");
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {
-                     console.log(a.slice(1))
+                     
                      if(values.title==a.slice(1))
                      {
                        abc[0]=cse[key]
@@ -339,7 +340,7 @@ res.render("cse-eventpage4.html");
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {
-                     console.log(a.slice(1))
+                     
                      if(values.title==a.slice(1))
                      {
                        abc[0]=cse[key]
@@ -353,7 +354,7 @@ res.render("cse-eventpage4.html");
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {
-                     console.log(a.slice(1))
+                     
                      if(values.title==a.slice(1))
                      {
                        abc[0]=cse[key]
@@ -367,7 +368,7 @@ res.render("cse-eventpage4.html");
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {
-                     console.log(a.slice(1))
+                     
                      if(values.title==a.slice(1))
                      {
                        abc[0]=cse[key]
@@ -381,7 +382,7 @@ res.render("cse-eventpage4.html");
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {
-                     console.log(a.slice(1))
+                     
                      if(values.title==a.slice(1))
                      {
                        abc[0]=cse[key]
@@ -395,7 +396,7 @@ res.render("cse-eventpage4.html");
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {
-                     console.log(a.slice(1))
+                     
                      if(values.title==a.slice(1))
                      {
                        abc[0]=cse[key]
@@ -409,7 +410,7 @@ res.render("cse-eventpage4.html");
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {
-                     console.log(a.slice(1))
+                     
                      if(values.title==a.slice(1))
                      {
                        abc[0]=cse[key]
@@ -418,6 +419,36 @@ res.render("cse-eventpage4.html");
                    }
                  res.render("eventdescript.hbs",{abc});
                })
+               var routttt='./registerHOLOGRAM,AR&VR'
+               console.log(routttt)
+               //var routttt=path.join('/register',cse.title)
+              /* router.get(/register/,function(req,res) {
+                a=req.route.path;
+                console.log(a)
+                for(var [key,values] of Object.entries(cse))
+                  {
+                    if(values.title==a.slice(9))
+                    {
+                      abc[0]=cse[key]
+                      break;
+                    }
+                  }
+                res.render("registerform.hbs",{abc});
+                })
+              */
 
+                router.get("/registerHOLOGRAM,AR&VR",function(req,res) {
+                  a=req.route.path;
+                  console.log(a)
+                  for(var [key,values] of Object.entries(cse))
+                    {
+                      if(values.title==a.slice(9))
+                      {
+                        abc[0]=cse[key]
+                        break;
+                      }
+                    }
+                  res.render("registerform.hbs",{abc});
+                  })
 
 module.exports=router
