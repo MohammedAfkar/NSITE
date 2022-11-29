@@ -1,0 +1,90 @@
+<style>
+    #imggg{
+        position: relative;
+        top: -2em;
+        height: 10em;
+        width: 100vw;
+    }
+    #title{
+        position: relative;
+        top: -4em;
+        color: white;
+        font-weight: bolder;
+        text-shadow: 0px 0px 3px #131313;
+    }
+
+    .descrpt-align{
+        margin-top: -3em;
+        padding-left: 0.7em;
+        padding-right: 1em;
+    }
+
+    .head{
+        font-weight: bolder;
+        text-shadow: 0px 0px 1px #131313;
+        font-size:large;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0.3em;
+    }
+
+    .subhead{
+        font-weight: medium;
+        text-shadow: 0px 0px 1px #131313;
+        font-size:large;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .cord{
+     float: left;
+     margin-top: 0em;
+     font-size: medium;
+    }
+
+    h5{
+        margin: 20px;
+    }
+
+    .descrpt{
+       color: #131313;
+       margin-left: 0.3em;
+       text-align: justify;
+    }
+</style>
+
+<img id="imggg" src="images/event-img.png">
+{{#each abc}}
+<center><h3 id="title">{{{title}}}</h3></center>
+<div class="descrpt-align">
+<h2 class="head"> About the event</h2>
+<p class="descrpt">
+    {{{para}}}
+</p>
+<h6 style="padding-left: 0.2em;"><b>{{{grules}}}</b></h6>
+<p class="descrpt">
+    {{{rule1}}}<br>
+    {{{rule2}}}<br>
+    {{{rule3}}}<br>
+    {{{rule4}}}
+</p>
+<div>
+   <h5 class="subhead">Venue:<br>{{{room}}}</h5>
+
+    <h5 class="subhead">Registeration Fee:
+        <br>{{{fee1}}}<br>
+        {{{fee2}}}
+    </h5>
+</div>
+<b>
+<h4 class="head">Event coordinators:</h4>
+<div class="subhead">
+    <h5 class="cord">{{{coordinator1}}}<br>{{{coordinator1no}}}
+    </h5>
+    <h5 class="cord">{{{coordinator2}}}<br>{{{coordinator2no}}}</h5></b>
+</div>
+</div>
+<div class="button-alignment">
+        <a href="/home"><button class="button"><span>Register Now</span></button></a>
+    </div>
+{{/each}}
