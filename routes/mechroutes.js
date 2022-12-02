@@ -139,7 +139,7 @@ router.get('/Machinery-EXPO',function(req,res) {
             break;
           }
         }
-      res.render("registerform.hbs",{abc});
+      res.redirect('https://www.yepdesk.com/mechanical-engg');
       })
 
 

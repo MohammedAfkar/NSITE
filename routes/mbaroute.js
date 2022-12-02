@@ -123,7 +123,7 @@ router.get('/WISDOM-MAN-CORPORATE-MANAGER',function(req,res) {
                break;
              }
                 }
-              res.render("registerform.hbs",{abc});
+              res.redirect('https://www.yepdesk.com/mba');
               })
 
 module.exports=router

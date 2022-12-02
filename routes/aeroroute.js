@@ -180,17 +180,7 @@ router.get('/PLANETARIUM',function(req,res) {
                         })
 
     router.get(/register/,function(req,res) {
-      a=req.originalUrl
-      for(var [key,values] of Object.entries(aero))
-        {
-          console.log(a.slice(9))
-          if(values.title==a.slice(9))
-          {
-            abc[0]=aero[key]
-            break;
-          }
-        }
-      res.render("registerform.hbs",{abc});
+      res.redirect('https://www.yepdesk.com/aeronautical-engg');
       })
 
 

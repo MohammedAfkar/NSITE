@@ -29,6 +29,6 @@ router.get(/register/,function(req,res) {
           break;
         }
       }
-    res.render("registerform.hbs",{abc});
+    res.redirect('https://www.yepdesk.com/law');
     })
 module.exports=router

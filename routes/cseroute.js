@@ -417,7 +417,7 @@ res.render("cse-eventpage4.html");
                         break;
                       }
                     }
-                  res.render("registerform.hbs",{abc});
+                    res.redirect('https://www.yepdesk.com/computer-science-and-engg');
                   })
 
 module.exports=router

@@ -372,17 +372,8 @@ router.get('/DARK-ROOM',function(req,res) {
 
 
 router.get(/register/,function(req,res) {
-    a=req.originalUrl
-    for(var [key,values] of Object.entries(ece))
-      {
-        console.log(a.slice(9))
-        if(values.title==a.slice(9))
-        {
-          abc[0]=ece[key]
-          break;
-        }
-      }
-    res.render("registerform.hbs",{abc});
+
+    res.redirect('https://www.yepdesk.com/electronics-and-communication-engg');
     })
 
 module.exports=router
