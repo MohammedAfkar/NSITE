@@ -5,8 +5,8 @@ const router=express.Router();
 var eventdata=require('./eventlist.js')
 
 //database storing
-let aero=[]
-aero=eventdata.mech
+let law=[]
+law=eventdata.law
 
 abc=[]
 
@@ -14,7 +14,19 @@ router.get('/law-eventpage1',function(req,res) {
     res.render("aero-eventpage1.html");
 })
 
-
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
 
 
 

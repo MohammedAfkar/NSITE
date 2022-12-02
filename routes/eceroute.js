@@ -268,7 +268,7 @@ router.get('/NUTSTACKER',function(req,res) {
 })
 
 
-router.get('/DARK-ROOM',function(req,res) {
+router.get('/COMBINATION-PUZZLE',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {
@@ -283,7 +283,7 @@ router.get('/DARK-ROOM',function(req,res) {
 })
 
 
-router.get('/DARK-ROOM',function(req,res) {
+router.get('/PING-TAC-TOE',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {
@@ -298,7 +298,7 @@ router.get('/DARK-ROOM',function(req,res) {
 })
 
 
-router.get('/DARK-ROOM',function(req,res) {
+router.get('/SUCK-UP-THE-SKITTLES',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {
@@ -312,7 +312,7 @@ router.get('/DARK-ROOM',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/DARK-ROOM',function(req,res) {
+router.get('/SUM-UP-TO-30',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {
@@ -326,7 +326,7 @@ router.get('/DARK-ROOM',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/DARK-ROOM',function(req,res) {
+router.get('/WALKER-BOTTLE',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {
@@ -340,7 +340,7 @@ router.get('/DARK-ROOM',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/DARK-ROOM',function(req,res) {
+router.get('/DART',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {
@@ -354,7 +354,109 @@ router.get('/DARK-ROOM',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/DARK-ROOM',function(req,res) {
+router.get('/RUBENS-TUBE',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(ece))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=ece[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/EVOLUTION-OF-ELECTRONICS',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(ece))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=ece[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/MINI-METRO',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(ece))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=ece[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/SATELLITE-BUILDING',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(ece))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=ece[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+
+router.get('/ARDUINO',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(ece))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=ece[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+
+router.get('/E-WASTE-MANAGEMENT',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(ece))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=ece[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+
+router.get('/COMMUNICATION-SYSTEM',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(ece))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=ece[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+
+router.get('/SATELLITE-COMMUNICATION',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {
