@@ -84,7 +84,7 @@ res.render("cse-eventpage4.html");
           res.render("eventdescript.hbs",{abc});
           })
 
-          router.get('/THIMARPPU-DJ',function(req,res) {
+          router.get('/THIMARPP-DJ',function(req,res) {
             a=req.route.path;
             for(var [key,values] of Object.entries(cse))
               {
@@ -266,21 +266,7 @@ res.render("cse-eventpage4.html");
              res.render("eventdescript.hbs",{abc});
              })
      
-           router.get('/DARTS-SHOOTOUT',function(req,res) {
-             a=req.route.path;
-             for(var [key,values] of Object.entries(cse))
-               {
-                 
-                 if(values.title==a.slice(1))
-                 {
-                   abc[0]=cse[key]
-                   break;
-                 }
-               }
-             res.render("eventdescript.hbs",{abc});
-             })
-     
-             router.get('/PERFECT-RUBIK’S-CUBE',function(req,res) {
+             router.get('/PERFECT-RUBIKS-CUBE',function(req,res) {
                a=req.route.path;
                for(var [key,values] of Object.entries(cse))
                  {
@@ -406,7 +392,7 @@ res.render("cse-eventpage4.html");
                  res.render("eventdescript.hbs",{abc});
                })
      
-               router.get('/ETHICAL-HACKING-WORKSHOP',function(req,res) {
+               router.get('/ETHICAL-HACKING-AWARENESS',function(req,res) {
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {
@@ -419,29 +405,12 @@ res.render("cse-eventpage4.html");
                    }
                  res.render("eventdescript.hbs",{abc});
                })
-               var routttt='./registerHOLOGRAM,AR&VR'
-               console.log(routttt)
-               //var routttt=path.join('/register',cse.title)
-              /* router.get(/register/,function(req,res) {
-                a=req.route.path;
-                console.log(a)
-                for(var [key,values] of Object.entries(cse))
-                  {
-                    if(values.title==a.slice(9))
-                    {
-                      abc[0]=cse[key]
-                      break;
-                    }
-                  }
-                res.render("registerform.hbs",{abc});
-                })
-              */
 
-                router.get("/registerHOLOGRAM,AR&VR",function(req,res) {
-                  a=req.route.path;
-                  console.log(a)
+                router.get(/register/,function(req,res) {
+                  a=req.originalUrl
                   for(var [key,values] of Object.entries(cse))
                     {
+                      console.log(a.slice(9))
                       if(values.title==a.slice(9))
                       {
                         abc[0]=cse[key]

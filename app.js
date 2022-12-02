@@ -8,6 +8,12 @@ const { K } = require('handlebars');
 const cseroute=require('./routes/cseroute')
 const mechroute=require('./routes/mechroutes')
 const civilroute=require('./routes/civilroute')
+const aeroroute=require('./routes/aeroroute')
+const eceroute=require('./routes/eceroute')
+const mbaroute=require('./routes/mbaroute')
+const lawroute=require('./routes/lawroute')
+
+
 
 
 
@@ -20,7 +26,18 @@ app.engine('hbs',handlebars.engine({
 
 app.set('view engine', 'hbs');
 
-app.use(express.static(path.join(__dirname, 'views')));
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/cse-eventpage',express.static(path.join(__dirname, 'public')));
+app.use('/aero-eventpage',express.static(path.join(__dirname, 'public')));
+app.use('/mech-eventpage',express.static(path.join(__dirname, 'public')));
+app.use('/ece-eventpage',express.static(path.join(__dirname, 'public')));
+app.use('/civil-eventpage',express.static(path.join(__dirname, 'public')));
+app.use('/mba-eventpage',express.static(path.join(__dirname, 'public')));
+app.use('/law-eventpage',express.static(path.join(__dirname, 'public')));
+
+
+
+
 
 app.get('/',function(req,res) {
     res.render("index.html");
@@ -32,22 +49,14 @@ app.get('/home',function(req,res) {
 
 
 
-  app.get('/aero-eventpage1',function(req,res) {
-    res.render("aero-eventpage1.html");
-  })
 
-  app.get('/ece-eventpage1',function(req,res) {
-  res.render("ece-eventpage1.html");
-  })
-
-  app.get('/mba-eventpage1',function(req,res) {
-    res.render("mba-eventpage1.html");
-  })
-
-
-    app.use(cseroute)
-    app.use(mechroute)
-    app.use(civilroute)
+    app.use('/cse-eventpage',cseroute)
+    app.use('/aero-eventpage',aeroroute)
+    app.use('/mech-eventpage',mechroute)
+    app.use('/ece-eventpage',eceroute)
+    app.use('/law-eventpage',lawroute)
+    app.use('/mba-eventpage',mbaroute)
+    app.use('/civil-eventpage',civilroute)
         
 
 
