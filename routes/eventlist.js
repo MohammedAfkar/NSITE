@@ -379,14 +379,16 @@ para:"15 minutes of realistic space experience, chance to go beyond our planet a
 grules:"General Rules:",
 rule1:"30 persons can watch at the same time ",
 rule2:"Registration is required with Rs.120 per head . ",
-rule3:"The event is open for all . ",
-rule4:"Student ID’s must be carried . ",   
+rule3:"",
+rule4:"",   
 room:"CLASS ROOM 1",
 fee1:"Rs. 120/- per head ",
-coordinator1:"Surabhi R  ",
+fee2:"",
+coordinator1:"Surabhi  ",
 coordinator1no:"8848870510 ",
 coordinator2:"Kailash Karunakaran ",
 coordinator2no:"9745143634"},
+
 
 
 
@@ -397,9 +399,10 @@ grules:"General Rules: ",
 rule1:"Simulation is done currently for free.",
 rule2:"Registration is required",
 rule3:"The event is open for all . ",  
-rule4:"Student ID’s must be carried ",
+rule4:"",
 room:"BTech block Room No.208",
-fee1:"",
+fee1:"Rs. 50/- per head",
+fee2:"",
 coordinator1:"Anand D ",
 coordinator1no:"7558020984 ",
 coordinator2:"Kailash Karunakaran",
@@ -408,14 +411,15 @@ coordinator2no:"9745143634 "},
 
 //3
 {title:"GLIDER-MODELLING",
-para:"Ever tried making a plane yourself? This workshop will help in making, fabricating and flying it own your own.",
+para:"Ever tried making a plane yourself? This workshop will help in making, fabricating and flying it on your own.",
 grules:"General Rules: ",
-rule1:"Registration is required with Rs.200 per team . ",
+rule1:"Registration is required with Rs.150 per team . ",
 rule2:"  The team can have 2 members ",
-rule3:"Student ID’s must be carried .",
-rule4:" Registration is required ",   
+rule3:"Registration is required ",
+rule4:"Limited seats are only available",   
 room:"3rd floor Smart class room ",
-fee1:"RS.100/PER HEAD.",
+fee1:"",
+fee2:" RS. 150/- for a team of two",
 coordinator1:"Gopika Gopinath ",
 coordinator1no:"8606342293",
 coordinator2:"Mohamed Sameer T.K ",
@@ -423,31 +427,16 @@ coordinator2no:"8547279042"},
 
 
 //4
-{title:"CUBESATE",
-para:"Have you ever wondered how a satellite works and what is the manufacturing procedures, then this seminar is dedicated for you. It's a live workshop of the Cubesate",
-grules:"General Rules: ",
-rule1:"This workshop has registration of  ₹200   per head	",
-rule2:" Registration is required ",
-rule3:"The event is open for all.",
-rule4:"Student ID’s must be carried .",   
-room:"3rd floor Seminar hall",
-fee1:"Rs. 200/- per head",
-coordinator1:"Abhishek P S ",
-coordinator1no:"9207356485",
-coordinator2:"Ajith V S ",
-coordinator2no:"8667704870 "},
-
-
-//5
 {title:"ILLUSION-HALL",
-para:"An exhibition of anamorphic illusion sculpture . An illusion is a distortion of the senses, which can reveal how the mind normally organizes and interprets sensory stimulation",
+para:"An exhibition of anamorphic illusion sculpture. An illusion is a distortion of the senses, which can reveal how the mind normally organizes and interprets sensory stimulation",
 grules:"General Rules: ",
-rule1:"This workshop has registration of  ₹    per head	",
+rule1:"This event has registration of  ₹ 10 per head	",
 rule2:"  Registration is required ",
 rule3:"The event is open for all.",
-rule4:" Student ID’s must be carried .",   
-room:"BTech block Room No.406",
-fee1:"",
+rule4:"",   
+room:"BTech block Room No.409",
+fee1:"Rs 10/- per head",
+fee2:"",
 coordinator1:"Sreelakshmi N ",
 coordinator1no:"9946942380 ",
 coordinator2:"Amal Raj ",
@@ -455,7 +444,7 @@ coordinator2no:"9447843204"},
 
 
 
-//6
+//5
 {title:"JET-ENGINE-PROTOTYPE",
 para:"Your fascination of Jet Engine will be fed through this prototype where you can feel the afterburner of a jet engine & learn how it works .",
 grules:"General Rules: ",
@@ -471,9 +460,7 @@ coordinator2:"Rinchu P ",
 coordinator2no:"8593081848"},
 
 
-
-
-//7
+//6
 {title:"BRAIN-CYCLE",
 para:"Test the working of the brain simultaneously.",
 grules:"General Rules: ",
@@ -482,33 +469,34 @@ rule2:"  ",
 rule3:"",
 rule4:" ",   
 room:"B.Arch Road",
-fee1:"",
-coordinator1:"Soorya K S  ",
-coordinator1no:"",
+fee1:"Rs 30/- per head",
+fee2:"",
+coordinator1:"Sreeraj.S",
+coordinator1no:"9526447267",
 coordinator2:"John George v",
 coordinator2no:" 9791287775"},
 
 
 
-//8
+
+//7
 {title:"BATTLE-ROYAL",
 para:"A harmless live battleroyal game, which is a replica of the mobile game PUBG, where bullets are converted to laser.",
 grules:"General Rules: ",
 rule1:"The duration of the game is 15 minutes ",
 rule2:"A team of 3 can participate ",
-rule3:"A team of 3 can participate ",
-rule4:"A laser toy gun is used as the weapon ",   
-room:"Class room 4",
+rule3:"A laser toy gun is used as the weapon",
+rule4:"",   
+room:"BTech block room no 303",
 fee1:"Rs. 10/- per head ",
 fee2:"Rs. 30/- per team",
-coordinator1:"Abhijith C J ",
-coordinator1no:"8921557365",
-coordinator2:"Mohamed Sameer T K  ",
+coordinator1:"Aparna.S",
+coordinator1no:"7558948835",
+coordinator2:"Mohamed Sameer T K",
 coordinator2no:"8547279042"},
 
 
-
-//9
+//8
 {title:"LASER-MAZE",
 para:"A laser orientated maze with the task to travel a path without touching the laser and bring the item from the centre of the maze",
 grules:"General Rules: ",
@@ -516,24 +504,25 @@ rule1:"The duration of the game is 10 minutes ",
 rule2:"A maze is constructed using the rays of laser  ",
 rule3:"A participant must follow the path by without touching the laser",
 rule4:" ",   
-room:"Class room.4",
-fee1:"",
-coordinator1:"Abdul Wasif Khan ",
-coordinator1no:"6301169095",
+room:"BTech block room no 302",
+fee1:"Rs 20/- per head",
+fee2:"",
+coordinator1:"Adarsh.K",
+coordinator1no:"7306574413",
 coordinator2:"Mohamed Sameer T K ",
 coordinator2no:"8547279042"},
 
 
 
-//10
-{title:"POSTER-PRESENTATION",
-para:"Had an innovative idea and always tried to share it but never had a chance. This is your chance to come forward and present your innovative mind. D o your paper presentation on the recents trends in engineering .",
+//9
+{title:"MAGNIX",
+para:"Had an innovative idea and always tried to share it but never had a chance. This is your chance to come forward and present your innovative mind. Do your poster presentation on the recent trends in engineering .",
 grules:"General Rules: ",
-rule1:"",
-rule2:"  ",
-rule3:"",
-rule4:" ",   
-room:"Smart class  ",
+rule1:"The Competition is open to everyone.",
+rule2:"Each participant is allowed to submit only one entry.",
+rule3:"The Poster has to be in English.  And contain all information in one single poster.",
+rule4:"The topic of the competition is “Electric propulsion and advanced fuel cell development for electric vehicle”, and participants must follow the topic.",   
+room:"BTech block room no 507",
 fee1:"Rs. 100/- per head ",
 coordinator1:"Noora A K ",
 coordinator1no:"7736769244",
@@ -541,23 +530,95 @@ coordinator2:"Amal Raj ",
 coordinator2no:"9447843204"},
 
 
-//11
+
+//10
 {title:"PHOTOGRAPHY-COMPETITION",
-para:"A place to exhibit your skill in photography and be judged by your efficency and creativity.All the Photographs will be exhibited",
+para:"A place to exhibit your skill in photography and be judged by your efficiency and creativity.All the Photographs will be exhibited",
 grules:"General Rules: ",
 rule1:"Mobile phone can only be used  ",
-rule2:"Should not be copied from any other platform . ",
-rule3:"Manipulation not allowed .",
+rule2:"The topic will be provided on 8th of December 2022 and the participants should bring its coloured hardcopy in A3 paper.",
+rule3:"Manipulation and watermark not allowed .",
 rule4:"Photos must be in JPEG or JPG format . ",   
 room:"BTech block Room No.406",
 fee1:"Rs. 20/- per head ",
 coordinator1:"Swathi Krishna K ",
 coordinator1no:"8086680049",
 coordinator2:"Sujesh G ",
-coordinator2no:"9745169994"}
+coordinator2no:"9745169994"},
+
+
+
+//11
+{title:"REVERSE CAR PARKING",
+para:"It is a type of parking where you have to reverse your car into a parking spot.",
+grules:"General Rules:",
+rule1:"Car driving license is mandatory",
+rule2:"The car is allowed to move forward only two times",
+rule3:"Disqualified if the engine goes off",
+rule4:"",   
+room:"GROUND",
+fee1:"Rs. 30/- per head ",
+fee2:"",
+coordinator1:"Kasyap subramannian.P ",
+coordinator1no:"8547331262",
+coordinator2:"John George ",
+coordinator2no:"9791287775"},
+
+
+
+//12
+{title:"DODGE BALL",
+para:" It is a team sport in which players of two teams try to throw balls and hit opponents, while avoiding being hit themselves.",
+grules:"General Rules:",
+rule1:"4 members in a team",
+rule2:"Time duration is 20 minutes.",
+rule3:"Player are not allowed to kick or step on the ball",
+rule4:"Only 10 seconds ball is allowed to hold",   
+room:"BTech block Room No.211",
+fee1:"",
+fee2:" Rs. 100/- per team",
+coordinator1:"Abdul Gani. P ",
+coordinator1no:"9544921476",
+coordinator2:"Kailash Karunakaran",
+coordinator2no:"9745143634"},
+
+
+
+//13
+{title:"SLOW CYCLE ",
+para:" It is a game where the participants need to ride the cycle as slow as possible and the one who completes last with falling down or dropping leg will be the winner.",
+grules:"General Rules:",
+rule1:"Basic slow cycle rules.",
+rule2:"Winner will be selected based on the time duration",
+rule3:"Single track event based on time",
+rule4:"Open for everyone.",   
+room:"",
+fee1:"Rs. 10/- per head ",
+fee2:"",
+coordinator1:"Adithyan. P ",
+coordinator1no:"9747933794",
+coordinator2:"Rinchu.P",
+coordinator2no:"8137886456"},
+
+
+
+//14
+{title:"KICK START",
+para:"Beat the horse power with your girls power",
+grules:"General Rules:",
+rule1:"For all girls",
+rule2:"3 attempts are only provided",
+rule3:"",
+rule4:"",   
+room:"B.Arch road",
+fee1:"Rs. 10/- per head ",
+fee2:"",
+coordinator1:"",
+coordinator1no:"",
+coordinator2:"",
+coordinator2no:""},
+
 ]
-
-
 
 //mech datas
 

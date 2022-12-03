@@ -1,5 +1,6 @@
 const express=require('express');
 const router=express.Router();
+const path=require('path');
 
 //database importing
 var eventdata=require('./eventlist.js')
@@ -11,7 +12,7 @@ law=eventdata.law
 abc=[]
 
 router.get('/law-eventpage1',function(req,res) {
-    res.render("aero-eventpage1.html");
+    res.render("law-eventpage1.html");
 })
 
 router.get('/',function(req,res) {
@@ -43,4 +44,6 @@ router.get(/register/,function(req,res) {
       }
     res.redirect('https://www.yepdesk.com/law');
     })
+
+
 module.exports=router
