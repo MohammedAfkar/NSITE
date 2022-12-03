@@ -15,6 +15,322 @@ router.get('/law-eventpage1',function(req,res) {
     res.render("law-eventpage1.html");
 })
 
+router.get('/law-eventpage2',function(req,res) {
+  res.render("law-eventpage2.html");
+})
+
+router.get('/law-eventpage3',function(req,res) {
+  res.render("law-eventpage3.html");
+})
+
+router.get('/THE-SOUVENIR',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/THE-QUIZ-SHOW',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/BRAVE-HEART',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/KNIVES-OUT',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/HAMILTON',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/ROGUE-TRADER',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/UNCHARTED',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/THE-MAD-MEN',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
 router.get('/',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
@@ -44,6 +360,7 @@ router.get(/register/,function(req,res) {
       }
     res.redirect('https://www.yepdesk.com/law');
     })
+    
 
 
 module.exports=router

@@ -25,11 +25,6 @@ router.get('/ece-eventpage4',function(req,res) {
     res.render("ece-eventpage4.html");
 })
 
-router.get('/ece-eventpage5',function(req,res) {
-    res.render("ece-eventpage5.html");
-})
-
-
 
 router.get('/DARK-ROOM',function(req,res) {
   a=req.route.path;
