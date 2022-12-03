@@ -24,28 +24,44 @@ h1{
     display: flex;
     justify-content: space-around;
     padding: 2em;
+    padding-top: 0;
     justify-items: center;
     text-align: justify;
+    font-size: smaller;
  }
 
  .nsite-name{
-padding: 1em;
+padding: 5em;
 padding-top: 0;
 padding-bottom: 0;
 font-weight: bolder;
+font-size: large;
  }
 
 .Nsite-logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5em;
-    width: 12em;
+    margin-top: 4em;
+    width: 10em;
 }
 
 .Nsite-logo-brand{
     width: 3em;
     margin-left: 1em;
+}
+
+.power-center{
+display: flex;
+justify-content: center;
+
+}
+
+.power{
+font-size: medium;
+font-weight: bolder;
+color: #607f8a;
+font-style: italic;
 }
 
 /* reg form*/
@@ -255,6 +271,7 @@ color: #002B5B;
     display: flex;
     justify-content: space-around;
     justify-items: center;
+    margin-top: -2em;
 }
 
 @media screen and (max-width: 390px){
