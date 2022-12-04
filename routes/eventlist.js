@@ -13,7 +13,7 @@ coordinator2:"Sreekala R",
 coordinator2no:"8606314431"},
 
 
-//27
+//2
 {title:"GAMING-ROOM",
 para:"Gaming consoles, FIFA and other games",
 grules:"General Rules:",
@@ -26,7 +26,7 @@ coordinator2:" Amritha Devadasan",
 coordinator2no:"8075942401"},
 
 
-//6
+//3
 {title:"THIMARPPU-DJ",
 para:"Entertainment with DJ",
 grules:"General Rules:",
@@ -38,7 +38,7 @@ coordinator1no:"9061225608",
 coordinator2:"Dr. U Vijay Sankar",
 coordinator2no:"9994071758"},
 
-//2
+//4
 {title:"FLURO-LEAGUE",
 para:"Fluorescent football. Participants need to play in a dark room with fluorescent dress and ball.",
 grules:"General Rules:",
@@ -53,7 +53,7 @@ coordinator2:"Dr. U Vijay Sankar",
 coordinator2no:"9846634066"},
 
 
-//3
+//5
 {title:"HORROR-HOUSE",
 para:"Horror & Entertainment",
 grules:"General Rules:",
@@ -267,14 +267,14 @@ rule2:"",
 rule3:"",
 rule4:"",
 room:"ONLINE",fee1:"10/- Per head",
-fee2:"",coordinator1:" Aswin A R",
+fee2:"",coordinator1:"Aswin A R",
 coordinator1no:"9745142622",
-coordinator2:" Akhila E",
+coordinator2:"Akhila E",
 coordinator2no:"9847788306 "},
 
 //21
 {title:"MAGIC-OF-FINGERS",
-para:"Poster making Competition based on given topic,	Participant can make poster on their devices or system provided from the college",
+para:"Poster making Competition based on given topic, Participant can make poster on their devices or system provided from the college",
 grules:"General Rules:",
 rule1:"Poster making Competition based on given topic.",
 rule2:"Participant can make poster on their devices or system provided from the college",
@@ -283,7 +283,7 @@ rule4:"The decision of the authorities will be final and irrefutable.",
 room:"ADS Lab",
 fee1:"Rs. 150/- per team of 3",
 fee2:"10 per person",
-coordinator1:" Akshay Krishna",
+coordinator1:"Akshay Krishna",
 coordinator1no:"6238940904",
 coordinator2:"Akhila E",
 coordinator2no:"9847788306",
@@ -340,9 +340,9 @@ rule1:"One chance ",
 rule2:"The decision of the authorities will be final and irrefutable",
 room:"Ground",
 fee2:"10/- Per head",
-coordinator1:":  Piyush Santhosh",
+coordinator1:"Piyush Santhosh",
 coordinator1no:"8086392043",
-coordinator2:"  Anu TPU ",
+coordinator2:"Anu TPU ",
 coordinator2no:"984663406"},
 
 //26
@@ -371,6 +371,8 @@ coordinator2no:"8075942401"}
 ]
 
 
+
+
 //aero datas
 
 //1
@@ -382,20 +384,18 @@ rule2:"Registration is required with Rs.120 per head . ",
 rule3:"",
 rule4:"",   
 room:"CLASS ROOM 1",
-fee1:"Rs. 120/- per head ",
+fee1:"Rs. 120/- per head",
 fee2:"",
-coordinator1:"Surabhi  ",
+coordinator1:"Surabhi",
 coordinator1no:"8848870510 ",
 coordinator2:"Kailash Karunakaran ",
 coordinator2no:"9745143634"},
 
 
-
-
 //2
 {title:"FLIGHT-SIMULATOR",
 para:"Flight simulator is a chance of experiencing a realistic cockpit for yourself with the virtual piloting of Cessna . A Flight Simulator with Joy Stick and an Online flight simulator will be brought.",
-grules:"General Rules: ",
+grules:"General Rules:",
 rule1:"Simulation is done currently for free.",
 rule2:"Registration is required",
 rule3:"The event is open for all . ",  
@@ -446,8 +446,8 @@ coordinator2no:"9447843204"},
 
 //5
 {title:"JET-ENGINE-PROTOTYPE",
-para:"Your fascination of Jet Engine will be fed through this prototype where you can feel the afterburner of a jet engine & learn how it works .",
-grules:"General Rules: ",
+para:"Your fascination of Jet Engine will be fed through this prototype where you can feel the afterburner of a jet engine & learn how it works.",
+grules:"General Rules:",
 rule1:"",
 rule2:"  ",
 rule3:"",
@@ -456,9 +456,22 @@ room:" Stall",
 fee1:"",
 coordinator1:"Jovin Joseph Saratho ",
 coordinator1no:"9961548115",
-coordinator2:"Rinchu P ",
+coordinator2:"Rinchu P",
 coordinator2no:"8593081848"},
 
+{title:"CUBESATE",
+para:"Have you ever wondered how a satellite works and what is the manufacturing procedures, then this seminar is dedicated for you. It's a live workshop of the Cubesate",
+grules:"General Rules:",
+rule1:"This workshop has registration of  ₹200   per head",
+rule2:"Registration is required ",
+rule3:"The event is open for all",
+rule4:"Student ID’s must be carried",   
+room:"3rd floor Seminar hall",
+fee1:"Rs. 200/- per head",
+coordinator1:"Abhishek P S",
+coordinator1no:"9207356485",
+coordinator2:"Ajith V S",
+coordinator2no:"8667704870"},
 
 //6
 {title:"BRAIN-CYCLE",
@@ -475,9 +488,6 @@ coordinator1:"Sreeraj.S",
 coordinator1no:"9526447267",
 coordinator2:"John George v",
 coordinator2no:" 9791287775"},
-
-
-
 
 //7
 {title:"BATTLE-ROYAL",
@@ -513,7 +523,6 @@ coordinator2:"Mohamed Sameer T K",
 coordinator2no:"8547279042"},
 
 
-
 //9
 {title:"MAGNIX",
 para:"Had an innovative idea and always tried to share it but never had a chance. This is your chance to come forward and present your innovative mind. Do your poster presentation on the recent trends in engineering .",
@@ -528,7 +537,6 @@ coordinator1:"Noora A K ",
 coordinator1no:"7736769244",
 coordinator2:"Amal Raj ",
 coordinator2no:"9447843204"},
-
 
 
 //10
@@ -549,7 +557,7 @@ coordinator2no:"9745169994"},
 
 
 //11
-{title:"REVERSE CAR PARKING",
+{title:"REVERSE-CAR-PARKING",
 para:"It is a type of parking where you have to reverse your car into a parking spot.",
 grules:"General Rules:",
 rule1:"Car driving license is mandatory",
@@ -567,7 +575,7 @@ coordinator2no:"9791287775"},
 
 
 //12
-{title:"DODGE BALL",
+{title:"DODGE-BALL",
 para:" It is a team sport in which players of two teams try to throw balls and hit opponents, while avoiding being hit themselves.",
 grules:"General Rules:",
 rule1:"4 members in a team",
@@ -585,7 +593,7 @@ coordinator2no:"9745143634"},
 
 
 //13
-{title:"SLOW CYCLE ",
+{title:"SLOW-CYCLE",
 para:" It is a game where the participants need to ride the cycle as slow as possible and the one who completes last with falling down or dropping leg will be the winner.",
 grules:"General Rules:",
 rule1:"Basic slow cycle rules.",
@@ -617,7 +625,6 @@ coordinator1:"Abhijith D Giri",
 coordinator1no:"9995324820",
 coordinator2:"Mohamed Sameer T K",
 coordinator2no:"8547279042"}
-
 ]
 
 //mech datas

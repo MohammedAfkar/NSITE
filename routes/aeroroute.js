@@ -150,6 +150,20 @@ router.get('/PLANETARIUM',function(req,res) {
                     res.render("eventdescript.hbs",{abc});
                     })
 
+                    router.get('/MAGNIX',function(req,res) {
+                      a=req.route.path;
+                      for(var [key,values] of Object.entries(aero))
+                        {
+                          
+                          if(values.title==a.slice(1))
+                          {
+                            abc[0]=aero[key]
+                            break;
+                          }
+                        }
+                      res.render("eventdescript.hbs",{abc});
+                      })
+  
 
                     router.get('/POSTER-PRESENTATION',function(req,res) {
                       a=req.route.path;
@@ -178,6 +192,64 @@ router.get('/PLANETARIUM',function(req,res) {
                           }
                         res.render("eventdescript.hbs",{abc});
                         })
+
+
+                        router.get('/REVERSE-CAR-PARKING',function(req,res) {
+                          a=req.route.path;
+                          for(var [key,values] of Object.entries(aero))
+                            {
+                              
+                              if(values.title==a.slice(1))
+                              {
+                                abc[0]=aero[key]
+                                break;
+                              }
+                            }
+                          res.render("eventdescript.hbs",{abc});
+                          })
+
+
+                          router.get('/DODGE-BALL',function(req,res) {
+                            a=req.route.path;
+                            for(var [key,values] of Object.entries(aero))
+                              {
+                                
+                                if(values.title==a.slice(1))
+                                {
+                                  abc[0]=aero[key]
+                                  break;
+                                }
+                              }
+                            res.render("eventdescript.hbs",{abc});
+                            })
+
+                            router.get('/KICK-START',function(req,res) {
+                              a=req.route.path;
+                              for(var [key,values] of Object.entries(aero))
+                                {
+                                  
+                                  if(values.title==a.slice(1))
+                                  {
+                                    abc[0]=aero[key]
+                                    break;
+                                  }
+                                }
+                              res.render("eventdescript.hbs",{abc});
+                              })
+
+                              router.get('/SLOW-CYCLE',function(req,res) {
+                                a=req.route.path;
+                                for(var [key,values] of Object.entries(aero))
+                                  {
+                                    
+                                    if(values.title==a.slice(1))
+                                    {
+                                      abc[0]=aero[key]
+                                      break;
+                                    }
+                                  }
+                                res.render("eventdescript.hbs",{abc});
+                                })
 
     router.get(/register/,function(req,res) {
       res.redirect('https://www.yepdesk.com/aeronautical-engg');
