@@ -135,7 +135,7 @@ router.get('/THE-MAD-MEN',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/MARGIN-CALL',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -149,7 +149,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/THE-CREATIVE-BRAIN',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -163,7 +163,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/PHOTOGRAPHY-CONTEST',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -177,7 +177,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/STAND-UP-COMEDY',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -191,7 +191,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/SPOON-AND-CUP-CHALLENGE',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -205,7 +205,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/INTELLECTUAL-GAME',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -219,7 +219,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/LAVA-WALK',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -233,7 +233,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/PENALTY-SHOOTOUT',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -247,7 +247,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/PS4-GAME',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -261,7 +261,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/SUMO-WRESTLING',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -275,7 +275,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/BALLOON-SHOOTING',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -289,7 +289,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/ARROW-THROW',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -303,7 +303,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/RING-THROW',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -317,7 +317,7 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/PUSH-UP-CHALLENGE',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -331,7 +331,64 @@ router.get('/',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/',function(req,res) {
+router.get('/HANGING-CHALLENGE',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+
+router.get('/ARM-WRESTLING',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/CUP-AND-PLATE-TOWER-CHALLENGE',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/BALLOON-CATERPILLAR',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/BALLOON-POPPING',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {

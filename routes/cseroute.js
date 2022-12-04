@@ -363,7 +363,19 @@ res.render("cse-eventpage4.html");
                    }
                  res.render("eventdescript.hbs",{abc});
                })
-     
+               router.get('/DEATH-MAZE',function(req,res) {
+                a=req.route.path;
+                for(var [key,values] of Object.entries(cse))
+                  {
+                    
+                    if(values.title==a.slice(1))
+                    {
+                      abc[0]=cse[key]
+                      break;
+                    }
+                  }
+                res.render("eventdescript.hbs",{abc});
+              })
                router.get('/PENALTY-SHOOTOUT',function(req,res) {
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
