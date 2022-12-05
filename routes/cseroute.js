@@ -28,7 +28,7 @@ res.render("cse-eventpage4.html");
 })
 
   //cse inside routes
-  router.get('/HOLOGRAM,AR&VR',function(req,res) {
+  router.get('/HOLOGRAM-AR&VR',function(req,res) {
     a=req.route.path;
     for(var [key,values] of Object.entries(cse))
       {
@@ -84,7 +84,7 @@ res.render("cse-eventpage4.html");
           res.render("eventdescript.hbs",{abc});
           })
 
-          router.get('/THIMARPP-DJ',function(req,res) {
+          router.get('/THIMARPPU-DJ',function(req,res) {
             a=req.route.path;
             for(var [key,values] of Object.entries(cse))
               {
@@ -418,18 +418,20 @@ res.render("cse-eventpage4.html");
                  res.render("eventdescript.hbs",{abc});
                })
 
-                router.get(/register/,function(req,res) {
-                  a=req.originalUrl
-                  for(var [key,values] of Object.entries(cse))
+               router.get(/register/,function(req,res) {
+                a=req.originalUrl
+                for(var [key,values] of Object.entries(cse))
+                  {
+                    console.log(a.slice(23))
+                    if(values.title==a.slice(3))
                     {
-                      console.log(a.slice(9))
-                      if(values.title==a.slice(9))
-                      {
-                        abc[0]=cse[key]
-                        break;
-                      }
+                      abc[0]=cse[key]
+                      break;
                     }
-                    res.redirect('https://www.yepdesk.com/computer-science-and-engg');
-                  })
+                  }
+                  var z=abc[0].title.toLowerCase()
+                  res.redirect('https://www.yepdesk.com/'+z)
+                })
+
 
 module.exports=router

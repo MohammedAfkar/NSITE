@@ -113,17 +113,19 @@ router.get('/WISDOM-MAN-CORPORATE-MANAGER',function(req,res) {
 
        
        router.get(/register/,function(req,res) {
-         a=req.originalUrl
-         for(var [key,values] of Object.entries(mba))
-           {
-             console.log(a.slice(9))
-             if(values.title==a.slice(9))
-             {
-               abc[0]=mba[key]
-               break;
-             }
-                }
-              res.redirect('https://www.yepdesk.com/mba');
-              })
+        a=req.originalUrl
+        for(var [key,values] of Object.entries(mba))
+          {
+            console.log(a.slice(23))
+            if(values.title==a.slice(3))
+            {
+              abc[0]=mba[key]
+              break;
+            }
+          }
+          var z=abc[0].title.toLowerCase()
+          res.redirect('https://www.yepdesk.com/'+z)
+        })
+
 
 module.exports=router

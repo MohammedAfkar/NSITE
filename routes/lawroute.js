@@ -405,19 +405,20 @@ router.get('/BALLOON-POPPING',function(req,res) {
 
 
 router.get(/register/,function(req,res) {
-    a=req.originalUrl
-    for(var [key,values] of Object.entries(law))
+  a=req.originalUrl
+  for(var [key,values] of Object.entries(law))
+    {
+      console.log(a.slice(23))
+      if(values.title==a.slice(3))
       {
-        console.log(a.slice(9))
-        if(values.title==a.slice(9))
-        {
-          abc[0]=law[key]
-          break;
-        }
+        abc[0]=law[key]
+        break;
       }
-    res.redirect('https://www.yepdesk.com/law');
-    })
-    
+    }
+    var z=abc[0].title.toLowerCase()
+    res.redirect('https://www.yepdesk.com/'+z)
+  })
+
 
 
 module.exports=router

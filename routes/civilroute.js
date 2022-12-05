@@ -142,12 +142,20 @@ router.get('/litricon',function(req,res) {
                     })
 
 
-
-
-    router.get(/register/,function(req,res) {
-      res.redirect('https://www.yepdesk.com/civil-engg');
-      })
-
-
+                    router.get(/register/,function(req,res) {
+                      a=req.originalUrl
+                      for(var [key,values] of Object.entries(civil))
+                        {
+                          console.log(a.slice(23))
+                          if(values.title==a.slice(3))
+                          {
+                            abc[0]=civil[key]
+                            break;
+                          }
+                        }
+                        var z=abc[0].title.toLowerCase()
+                        res.redirect('https://www.yepdesk.com/'+z)
+                      })
+      
 
 module.exports=router
