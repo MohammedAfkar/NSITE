@@ -19,19 +19,6 @@ router.get('/aero-eventpage2',function(req,res) {
 })
 
 //Aero inside routes
-router.get('/PLANETARIUM',function(req,res) {
-    a=req.route.path;
-    for(var [key,values] of Object.entries(aero))
-      {
-        
-        if(values.title==a.slice(1))
-        {
-          abc[0]=aero[key]
-          break;
-        }
-      }
-    res.render("eventdescript.hbs",{abc});
-    })
 
     router.get('/FLIGHT-SIMULATOR',function(req,res) {
       a=req.route.path;
@@ -59,21 +46,6 @@ router.get('/PLANETARIUM',function(req,res) {
           }
         res.render("eventdescript.hbs",{abc});
         })
-
-
-        router.get('/CUBESATE',function(req,res) {
-          a=req.route.path;
-          for(var [key,values] of Object.entries(aero))
-            {
-              
-              if(values.title==a.slice(1))
-              {
-                abc[0]=aero[key]
-                break;
-              }
-            }
-          res.render("eventdescript.hbs",{abc});
-          })
 
 
           router.get('/ILLUSION-HALL',function(req,res) {
@@ -250,6 +222,20 @@ router.get('/PLANETARIUM',function(req,res) {
                                   }
                                 res.render("eventdescript.hbs",{abc});
                                 })
+
+                                router.get('/E-Football-Tournament',function(req,res) {
+                                  a=req.route.path;
+                                  for(var [key,values] of Object.entries(aero))
+                                    {
+                                      
+                                      if(values.title==a.slice(1))
+                                      {
+                                        abc[0]=aero[key]
+                                        break;
+                                      }
+                                    }
+                                  res.render("eventdescript.hbs",{abc});
+                                  })
 
     router.get(/register/,function(req,res) {
       res.redirect('https://www.yepdesk.com/aeronautical-engg');

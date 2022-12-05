@@ -466,6 +466,36 @@ router.get('/SATELLITE-COMMUNICATION',function(req,res) {
 })
 
 
+router.get('/FM-Radio',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(ece))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=ece[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/CryptoMaster',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(ece))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=ece[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+
+
 
 
 router.get(/register/,function(req,res) {
