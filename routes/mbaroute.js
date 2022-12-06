@@ -84,7 +84,7 @@ router.get('/WISDOM-MAN-CORPORATE-MANAGER',function(req,res) {
                        })
 
      
-     router.get('/LETS-NACHO',function(req,res) {
+     router.get('/STEP-UP-spot-choreo',function(req,res) {
          a=req.route.path;
          for(var [key,values] of Object.entries(mba))
            {
