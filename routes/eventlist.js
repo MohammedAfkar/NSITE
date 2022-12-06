@@ -762,19 +762,6 @@ coordinator1no:"6238180288",
 coordinator2:"Nishanth S",
 coordinator2no:"8089615432"},
 
-{title:"Volleyball-Tournament",
-para:" ",
-grules:"General Rules:",
-rule1:"No rotation is required",
-rule2:"3 sets of 15 points each",
-rule3:"12 members + 1 manager can represent each team",
-rule4:"Entry restricted to students who represent any educational institution",
-rule5:"Registration closes on 2nd December 2022",
-room:"Indoor Stadium",fee1:"Rs.1000",
-fee2:"",coordinator1:"Nidhun P M",
-coordinator1no:"8139896474",
-coordinator2:"Chamind E C",
-coordinator2no:"9746797978"}
 
 ]
 

@@ -70,7 +70,7 @@ router.get('/Machinery-EXPO',function(req,res) {
           }
         res.render("eventdescript.hbs",{abc});
         })
-        router.get('/Design-Competition',function(req,res) {
+        router.get('/Design-Enthusiast',function(req,res) {
           a=req.route.path;
           for(var [key,values] of Object.entries(mech))
             {
@@ -83,20 +83,6 @@ router.get('/Machinery-EXPO',function(req,res) {
             }
           res.render("eventdescript.hbs",{abc});
           })
-
-          router.get('/Tech-Talk',function(req,res) {
-            a=req.route.path;
-            for(var [key,values] of Object.entries(mech))
-              {
-                console.log(a.slice(1))
-                if(values.title==a.slice(1))
-                {
-                  abc[0]=mech[key]
-                  break;
-                }
-              }
-            res.render("eventdescript.hbs",{abc});
-            })
 
 
             router.get('/Project-Expo-mech',function(req,res) {
