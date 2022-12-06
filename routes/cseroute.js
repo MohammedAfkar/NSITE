@@ -376,7 +376,7 @@ res.render("cse-eventpage4.html");
                   }
                 res.render("eventdescript.hbs",{abc});
               })
-               router.get('/PENALTY-SHOOTOUT',function(req,res) {
+               router.get('/PENALTY-jcet',function(req,res) {
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {
