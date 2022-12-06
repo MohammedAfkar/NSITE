@@ -44,34 +44,6 @@ router.get('/civil-eventpage1',function(req,res) {
         res.render("eventdescript.hbs",{abc});
         })
 
-        router.get('/Autocad-Workshop',function(req,res) {
-          a=req.route.path;
-          for(var [key,values] of Object.entries(civil))
-            {
-              console.log(a.slice(1))
-              if(values.title==a.slice(1))
-              {
-                abc[0]=civil[key]
-                break;
-              }
-            }
-          res.render("eventdescript.hbs",{abc});
-          })
-
-          router.get('/CIVIL-SPECTACLE',function(req,res) {
-            a=req.route.path;
-            for(var [key,values] of Object.entries(civil))
-              {
-                console.log(a.slice(1))
-                if(values.title==a.slice(1))
-                {
-                  abc[0]=civil[key]
-                  break;
-                }
-              }
-            res.render("eventdescript.hbs",{abc});
-            })
-
             router.get('/FAST-TRACK',function(req,res) {
               a=req.route.path;
               for(var [key,values] of Object.entries(civil))
