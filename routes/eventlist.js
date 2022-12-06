@@ -203,19 +203,6 @@ coordinator1no:"9946749918",
 coordinator2:"",
 coordinator2no:""},
 
-//16
-{title:"DARTS-SHOOTOUT",
-para:"Throw the Darts at the point,Gift will be provided",
-grules:"General Rules:",
-rule1:"3 throws per person",
-rule2:"",
-rule3:"",
-rule4:"",
-room:"Indoor Stadium",fee1:"Rs. 10/- per head",
-fee2:"",coordinator1:" Madhan Raj",
-coordinator1no:"7994669252",
-coordinator2:" Ramya TV",
-coordinator2no:"9400916341 "},
 
 //17
 {title:"PERFECT-RUBIKS-CUBE",
