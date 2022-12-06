@@ -238,7 +238,7 @@ res.render("cse-eventpage4.html");
              res.render("eventdescript.hbs",{abc});
              })
      
-           router.get('/EDUTHO-PIDICHO',function(req,res) {
+           router.get('/edutho-pidicho-ring-throw',function(req,res) {
              a=req.route.path;
              for(var [key,values] of Object.entries(cse))
                {
@@ -294,7 +294,7 @@ res.render("cse-eventpage4.html");
                  res.render("eventdescript.hbs",{abc});
                })
      
-               router.get('/MINUTE-TO-WIN-IT',function(req,res) {
+               router.get('/minute-to-win',function(req,res) {
                  a=req.route.path;
                  for(var [key,values] of Object.entries(cse))
                    {

@@ -190,7 +190,7 @@ coordinator2:" Sreekala R",
 coordinator2no:"8606314431"},
 
 //15
-{title:"EDUTHO-PIDICHO",
+{title:"edutho-pidicho-ring-throw",
 para:"Ring Throw,Gifts will be Provided",
 grules:"General Rules:",
 rule1:"Each person will get 3 chances",
@@ -247,7 +247,7 @@ coordinator2:" Akhila E",
 coordinator2no:"9847788306 "},
 
 //19
-{title:"MINUTE-TO-WIN-IT",
+{title:"minute-to-win",
 para:"Fun Games and Activities in 1 Minute,Gifts will be Provided",
 grules:"General Rules:",
 rule1:"Each round will be 10 minutes each.",
