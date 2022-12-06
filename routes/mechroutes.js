@@ -99,7 +99,7 @@ router.get('/Machinery-EXPO',function(req,res) {
             })
 
 
-            router.get('/Project-Expo',function(req,res) {
+            router.get('/Project-Expo-mech',function(req,res) {
               a=req.route.path;
               for(var [key,values] of Object.entries(mech))
                 {
