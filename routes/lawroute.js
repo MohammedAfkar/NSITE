@@ -37,7 +37,21 @@ router.get('/THE-SOUVENIR',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/THE-QUIZ-SHOW',function(req,res) {
+router.get('/THE-QUIZ-SHOW-school',function(req,res) {
+  a=req.route.path;
+  for(var [key,values] of Object.entries(law))
+    {
+      
+      if(values.title==a.slice(1))
+      {
+        abc[0]=law[key]
+        break;
+      }
+    }
+  res.render("eventdescript.hbs",{abc});
+})
+
+router.get('/THE-QUIZ-SHOW-college',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
