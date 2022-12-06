@@ -112,7 +112,7 @@ coordinator2no:"9847788306"},
 
 
 //8
-{title:"BLIND-CODING",
+{title:"Blind-coding-test",
 para:"Coding with Black Screen, Errors need to be found, Gift worth of 500",
 grules:"General Rules:",
 rule1:"Each round will be 10 minutes each.",
@@ -342,7 +342,7 @@ room:"Ground",
 fee2:"10/- Per head",
 coordinator1:"Piyush Santhosh",
 coordinator1no:"8086392043",
-coordinator2:"Anu TPU ",
+coordinator2:"Anu TP",
 coordinator2no:"984663406"},
 
 //26

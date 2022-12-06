@@ -140,7 +140,7 @@ res.render("cse-eventpage4.html");
             res.render("eventdescript.hbs",{abc});
             })
           
-            router.get('/BLIND-CODING',function(req,res) {
+            router.get('/Blind-coding-test',function(req,res) {
               a=req.route.path;
               for(var [key,values] of Object.entries(cse))
                 {
