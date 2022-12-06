@@ -1368,7 +1368,7 @@ coordinator1no:"8848778280",
 coordinator2:"MEERA T",
 coordinator2no:": 9645420111"},
 
-{title:"THE-QUIZ-SHOW-school-college",
+{title:"THE-QUIZ-SHOW-college",
 para:": Quiz is being conducted to create legal awareness among the students also to have the spirit of legal knowledge among all rounds:There shall be three rounds in total,In Round- I, there shall be negative marks for each wrong answer,In each round two questions each carrying 10 marks shall be asked,Each passing question shall have 5 marks. (Maximum 1 minute),Round II There shall be no negative marking,Round III will be buzzer round,",
 grules:"General Rules:",
 rule1:"The quiz will cover topics related to: Constitution General Knowledge Basic History and Science",
