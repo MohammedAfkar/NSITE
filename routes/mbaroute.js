@@ -55,7 +55,7 @@ router.get('/WISDOM-MAN-CORPORATE-MANAGER',function(req,res) {
          }
        res.render("eventdescript.hbs",{abc});
        })
-       router.get('/FOOTBALL-FEVER',function(req,res) {
+       router.get('/FOOTBALL-FEVER1',function(req,res) {
            a=req.route.path;
            for(var [key,values] of Object.entries(mba))
              {

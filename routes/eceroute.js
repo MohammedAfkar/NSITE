@@ -98,7 +98,7 @@ router.get('/ELECTRONIC-PUZZLE',function(req,res) {
 })
 
 
-router.get('/SOLDERING-COMPETITION',function(req,res) {
+router.get('/soldering-competition-ece',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {
@@ -113,7 +113,7 @@ router.get('/SOLDERING-COMPETITION',function(req,res) {
 })
 
 
-router.get('/QUIZ',function(req,res) {
+router.get('/QUIZ4',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {
@@ -451,7 +451,7 @@ router.get('/COMMUNICATION-SYSTEM',function(req,res) {
 })
 
 
-router.get('/SATELLITE-COMMUNICATION',function(req,res) {
+router.get('/SATELLITE-COMMUNICATION1',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {
@@ -466,7 +466,7 @@ router.get('/SATELLITE-COMMUNICATION',function(req,res) {
 })
 
 
-router.get('/FM-Radio',function(req,res) {
+router.get('/fm-radio-ece',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {

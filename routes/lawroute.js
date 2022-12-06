@@ -123,7 +123,7 @@ router.get('/KNIVES-OUT',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/HAMILTON',function(req,res) {
+router.get('/HAMILTON1',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
@@ -207,7 +207,7 @@ router.get('/THE-CREATIVE-BRAIN',function(req,res) {
   res.render("eventdescript.hbs",{abc});
 })
 
-router.get('/PHOTOGRAPHY-CONTEST',function(req,res) {
+router.get('/PHOTOGRAPHY-CONTEST-entertainment',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(law))
     {
