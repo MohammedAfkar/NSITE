@@ -588,20 +588,6 @@ coordinator1no:"9995324820",
 coordinator2:"Mohamed Sameer T K",
 coordinator2no:"8547279042"},
 
-{title:"E-Football-Tournament",
-para:"",
-grules:"General Rules:",
-rule1:"",
-rule2:"",
-rule3:"",
-rule4:"",   
-room:"",
-fee1:"",
-fee2:"",
-coordinator1:"",
-coordinator1no:"",
-coordinator2:"",
-coordinator2no:""}
 ]
 
 //mech datas
