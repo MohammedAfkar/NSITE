@@ -100,6 +100,34 @@ router.get('/civil-eventpage1',function(req,res) {
                     res.render("eventdescript.hbs",{abc});
                     })
 
+                    router.get('/Face-painting3',function(req,res) {
+                      a=req.route.path;
+                      for(var [key,values] of Object.entries(civil))
+                        {
+                          console.log(a.slice(1))
+                          if(values.title==a.slice(1))
+                          {
+                            abc[0]=civil[key]
+                            break;
+                          }
+                        }
+                      res.render("eventdescript.hbs",{abc});
+                      })
+
+                      router.get('/metronome',function(req,res) {
+                        a=req.route.path;
+                        for(var [key,values] of Object.entries(civil))
+                          {
+                            console.log(a.slice(1))
+                            if(values.title==a.slice(1))
+                            {
+                              abc[0]=civil[key]
+                              break;
+                            }
+                          }
+                        res.render("eventdescript.hbs",{abc});
+                        })
+
 
                     router.get(/register/,function(req,res) {
                       a=req.originalUrl
