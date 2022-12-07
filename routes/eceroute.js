@@ -233,7 +233,7 @@ router.get('/BOWLING-ALLEY',function(req,res) {
 })
 
 
-router.get('/HIT-THE-POINT',function(req,res) {
+router.get('/Esports-zone',function(req,res) {
   a=req.route.path;
   for(var [key,values] of Object.entries(ece))
     {
